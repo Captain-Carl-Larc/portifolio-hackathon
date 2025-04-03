@@ -56,9 +56,9 @@
     margin: 4rem 2rem;
     border-bottom: 2px solid #1E88E5;
 }
-#about{ /* section */
+section{ /* section */
     padding:0rem 2rem;
-    display: flex;
+    display: flex;    
     justify-content: space-between;
     align-items: center;
     column-gap: 2rem;    
@@ -98,4 +98,10 @@
     color: black;
     border-radius: 0.3rem;
     font-size: 1.1rem;
+}
+
+@media screen and (max-width: 768px) {
+   footer{
+    background-color: red;
+   }
 }
