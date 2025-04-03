@@ -4,7 +4,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
 /* Header Styling */
 header {
     background-color: rgba(40, 38, 38, 0.916);
@@ -64,6 +69,50 @@ nav {
     display: none; /* Hidden by default */
 }
 
+footer{
+    background-color: #111111;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+#links{    
+    padding: 2rem;
+    display: flex;
+    column-gap: 4rem;
+    justify-content: space-between;
+    border-bottom: 0.4px solid gray;
+}
+#about-me{
+    width: 40%;
+}
+
+#about-me p{
+    padding-top: 1rem;
+}
+
+#quicklinks h4,#social-links{
+    font-size: 1.2rem;
+}
+#quicklinks ul,#social-links ul{
+    padding-top: 1rem;
+}
+#quicklinks ul li,#social-links ul li{
+    padding-bottom: 0.2rem;
+}
+#quicklinks ul li a,#social-links ul li a{
+    font-size: 1.1rem;
+    color: white;
+
+}
+#quicklinks ul li a:hover,#social-links ul li a:hover{
+    text-decoration: underline;
+}
+
+#copyright{
+    padding: 2rem 0rem;
+    display: flex;
+    justify-content: center;
+}
 /* Responsive Design: Mobile Navigation */
 @media screen and (max-width: 768px) {
     .hamburger {
