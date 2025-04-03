@@ -56,7 +56,7 @@
     margin: 4rem 2rem;
     border-bottom: 2px solid #1E88E5;
 }
-#about{
+#about{ /* section */
     padding:0rem 2rem;
     display: flex;
     justify-content: space-between;
@@ -64,13 +64,13 @@
     column-gap: 2rem;    
 }
 
-.about-banner{
+.banner{ /* section banner container*/
     background-color: red;
     width: 70%;
     box-shadow:0px 6px 18px 0px rgba(0,0,0,0.56);
     height: 50vh;
 }
-.about-text{
+.text-container{ /* section text component container */
     width: 30%;    
     display: flex;
     flex-direction: column;
@@ -80,187 +80,15 @@
     box-shadow:0px 6px 18px 0px rgba(0,0,0,0.56);
     height: 50vh;
 }
-.about-text h3{
+.text-container h3{ /* section text component heading */
     color: black;
     
 }
-.about-text p{
+.text-container p{/* section text component paragraph */
     color: rgb(170, 162, 162);
 }
 
-.about-text a{
-    text-decoration: none;    
-    display: flex;
-    justify-content: center;
-    background:#1E88E5;
-    padding: 0.2rem 0.4rem;
-    width: 8rem;
-    color: black;
-    border-radius: 0.3rem;
-    font-size: 1.1rem;
-}
-#education{
-    padding:0rem 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    column-gap: 2rem;    
-}
-
-.education-banner{
-    background-color: red;
-    width: 70%;
-    box-shadow:0px 6px 18px 0px rgba(0,0,0,0.56);
-    height: 50vh;
-}
-.education-text{
-    width: 30%;    
-    display: flex;
-    flex-direction: column;
-    row-gap: 1rem;
-    padding: 0.5rem 1rem;
-    border-radius: 0.2rem;
-    box-shadow:0px 6px 18px 0px rgba(0,0,0,0.56);
-    height: 50vh;
-}
-.education-text h3{
-    color: black;
-    
-}
-.education-text p{
-    color: rgb(170, 162, 162);
-}
-
-.education-text a{
-    text-decoration: none;    
-    display: flex;
-    justify-content: center;
-    background:#1E88E5;
-    padding: 0.2rem 0.4rem;
-    width: 8rem;
-    color: black;
-    border-radius: 0.3rem;
-    font-size: 1.1rem;
-}
-#projects{
-    padding:0rem 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    column-gap: 2rem;    
-}
-
-.projects-banner{
-    background-color: red;
-    width: 70%;
-    box-shadow:0px 6px 18px 0px rgba(0,0,0,0.56);
-    height: 50vh;
-}
-.projects-text{
-    width: 30%;    
-    display: flex;
-    flex-direction: column;
-    row-gap: 1rem;
-    padding: 0.5rem 1rem;
-    border-radius: 0.2rem;
-    box-shadow:0px 6px 18px 0px rgba(0,0,0,0.56);
-    height: 50vh;
-}
-.projects-text h3{
-    color: black;
-    
-}
-.projects-text p{
-    color: rgb(170, 162, 162);
-}
-
-.projects-text a{
-    text-decoration: none;    
-    display: flex;
-    justify-content: center;
-    background:#1E88E5;
-    padding: 0.2rem 0.4rem;
-    width: 8rem;
-    color: black;
-    border-radius: 0.3rem;
-    font-size: 1.1rem;
-}
-#interests{
-    padding:0rem 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    column-gap: 2rem;    
-}
-
-.interests-banner{
-    background-color: red;
-    width: 70%;
-    box-shadow:0px 6px 18px 0px rgba(0,0,0,0.56);
-    height: 50vh;
-}
-.interests-text{
-    width: 30%;    
-    display: flex;
-    flex-direction: column;
-    row-gap: 1rem;
-    padding: 0.5rem 1rem;
-    border-radius: 0.2rem;
-    box-shadow:0px 6px 18px 0px rgba(0,0,0,0.56);
-    height: 50vh;
-}
-.interests-text h3{
-    color: black;
-    
-}
-.interests-text p{
-    color: rgb(170, 162, 162);
-}
-
-.interests-text a{
-    text-decoration: none;    
-    display: flex;
-    justify-content: center;
-    background:#1E88E5;
-    padding: 0.2rem 0.4rem;
-    width: 8rem;
-    color: black;
-    border-radius: 0.3rem;
-    font-size: 1.1rem;
-}
-#contact{
-    padding:0rem 2rem 4rem 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    column-gap: 2rem;    
-}
-
-.contact-banner{
-    background-color: red;
-    width: 70%;
-    box-shadow:0px 6px 18px 0px rgba(0,0,0,0.56);
-    height: 50vh;
-}
-.contact-text{
-    width: 30%;    
-    display: flex;
-    flex-direction: column;
-    row-gap: 1rem;
-    padding: 0.5rem 1rem;
-    border-radius: 0.2rem;
-    box-shadow:0px 6px 18px 0px rgba(0,0,0,0.56);
-    height: 50vh;
-}
-.contact-text h3{
-    color: black;
-    
-}
-.contact-text p{
-    color: rgb(170, 162, 162);
-}
-
-.contact-text a{
+.text-container a{ /* Link to see more about a section */
     text-decoration: none;    
     display: flex;
     justify-content: center;
